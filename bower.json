@@ -1,8 +1,8 @@
 {
-  "name": "dev-tips-starter-kit",
+  "name": "starter-kit",
   "version": "1.0.0",
   "authors": [
-    "Maikel Rivero Dorta <mriverodorta@gmail.com>"
+    "Goran Ugrai <drmrsan@gmail.com>"
   ],
   "description": "Simple structure for a simple start to a simple site.",
   "main": "build/index.html",
@@ -12,6 +12,7 @@
     "starter-kit",
     "devtips",
     "sass",
+    "compass",
     "jade",
     "gulp"
   ],
