@@ -168,12 +168,12 @@ gulp.task('browsersync', function () {
 });
 
 // Build Task
-gulp.task('build', ['sass', 'jade', 'js', 'images', 'vendors', 'favicon']);
+gulp.task('build', ['compass', 'jade', 'js', 'images', 'vendors', 'favicon']);
 
 // Watch Task
 gulp.task('watch', ['browsersync'], function () {
   // Watch for style changes and compile
-  gulp.watch(styles.watch, ['sass']);
+  gulp.watch(styles.watch, ['compass']);
   // Watch for jade changes and compile
   gulp.watch(views.watch, ['jade', browsersync.reload]);
   // Watch for javascript changes and compile
